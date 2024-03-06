@@ -15,14 +15,14 @@ const Navbar = () => {
         className="object-contain"
       />
       {/* button navbar */}
-      <div className="flex items-center w-[50%]">
+      <div className="flex items-center w-[60%]">
         {/* Fixed width container */}
         <div className="flex overflow-x-auto w-full">
           {navbarLinks.map((items, index) => (
             <div
-              className="flex items-center justify-center px-4 w-full" // Adjust padding as needed
+              className="flex items-center justify-center px-4 w-full font-medium"
               key={index}
-              style={{ whiteSpace: "nowrap" }} // Prevent title wrapping
+              style={{ whiteSpace: "nowrap" }}
             >
               {items.title}
             </div>

@@ -1,12 +1,11 @@
-"use client";
-import Wrapper from "@/components/Wrapper";
 import ImageDiscover from "./ImageDiscover";
+import WrapperContainer from "@/components/Wrapper";
 
 const Discover = () => {
   return (
     <div>
-      <Wrapper>
-        <div className="flex justify-center">
+      <WrapperContainer>
+        <div className="flex-between  ">
           <ImageDiscover
             src="/images/women.jpg"
             height={630}
@@ -15,22 +14,25 @@ const Discover = () => {
             title="Women"
           />
 
-          <div className="flex flex-col ml-12 mr-12 justify-between">
-            <ImageDiscover
-              src="/images/bag.jpg"
-              alt="bag"
-              title="Accessories"
-              height={300}
-              width={300}
-            />
-
-            <ImageDiscover
-              src="/images/shoes.jpg"
-              height={300}
-              width={300}
-              alt="shoes"
-              title="Footwear"
-            />
+          <div className="flex flex-col ml-12 mr-12 h-[630px] justify-between">
+            <div className="overflow-hidden w-[300px] h-[300px]">
+              <ImageDiscover
+                src="/images/bag.jpg"
+                alt="bag"
+                title="Accessories"
+                height={300}
+                width={300}
+              />
+            </div>
+            <div className="overflow-hidden w-[300px] h-[300px]">
+              <ImageDiscover
+                src="/images/shoes.jpg"
+                height={300}
+                width={300}
+                alt="shoes"
+                title="Footwear"
+              />
+            </div>
           </div>
 
           <ImageDiscover
@@ -41,7 +43,7 @@ const Discover = () => {
             title="Watches"
           />
         </div>
-      </Wrapper>
+      </WrapperContainer>
     </div>
   );
 };

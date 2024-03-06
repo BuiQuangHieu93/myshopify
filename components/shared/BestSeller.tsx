@@ -3,10 +3,10 @@ import WrapperContainer from "../Wrapper";
 import Card from "./Card";
 import { trending } from "@/constants";
 
-const Trending = () => {
+const BestSeller = () => {
   return (
     <>
-      <WrapperContainer title="TRENDING" subtitle="Top view in this week">
+      <WrapperContainer title="BEST SELLER" subtitle="Top sale in this week">
         <div className="grid grid-cols-4 gap-x-[68px]">
           {trending.map((item, index) => (
             <Card
@@ -27,4 +27,4 @@ const Trending = () => {
   );
 };
 
-export default Trending;
+export default BestSeller;

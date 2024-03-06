@@ -1,9 +1,10 @@
+import BannerHolder from "@/components/shared/BannerHolder";
+import BestSeller from "@/components/shared/BestSeller";
+import Blog from "@/components/shared/Blog";
 import Discover from "@/components/shared/Discover";
-import Navbar from "@/components/shared/Navbar";
 import Slider from "@/components/shared/Slider";
 import Trending from "@/components/shared/Trending";
 import { UserButton } from "@clerk/nextjs";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
         <Slider />
         <Discover />
         <Trending />
+        <BannerHolder />
+        <BestSeller />
+        <Blog />
         <UserButton />
       </section>
     </>
