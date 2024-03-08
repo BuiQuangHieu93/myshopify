@@ -21,10 +21,14 @@ const WrapperContainer = ({
         <div className={`p-8 ${libre.className}`}>
           <div className="flex-center flex-row ">
             <div className="w-[40px] h-[2px] bg-black"></div>
-            <div className="pr-8 pl-8 font-bold text-2xl">{title}</div>
+            <div className="pr-8 pl-8 font-bold text-2xl text-center">
+              {title}
+            </div>
             <div className="w-[40px] h-[2px] bg-black"></div>
           </div>
-          <div className="flex-center italic text-[#878787]">{subtitle}</div>
+          <div className="flex-center italic text-[#878787] text-center">
+            {subtitle}
+          </div>
         </div>
       )}
       {children}

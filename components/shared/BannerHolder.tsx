@@ -10,7 +10,7 @@ const BannerHolder = () => {
   return (
     <>
       <WrapperContainer>
-        <div className="grid grid-cols-2 gap-24">
+        <div className="flex-between lg:flex-row flex-col">
           <div
             className="relative flex items-center justify-center overflow-hidden"
             onMouseEnter={() => setImageHover(true)}

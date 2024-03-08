@@ -10,17 +10,19 @@ const Blog = () => {
         title="LATES FROM BLOG"
         subtitle="The freshest and most exciting news"
       >
-        <div className="grid grid-cols-3">
+        <div className="flex-center lg:flex-between flex-wrap">
           {blog.map((blogItem, index) => (
-            <BlogCard
-              key={index}
-              src={blogItem.src}
-              alt={blogItem.alt}
-              title={blogItem.title}
-              author={blogItem.author}
-              date={blogItem.date}
-              des={blogItem.des}
-            />
+            <div className="max-w-[300px] md:max-w-[400px] pb-4">
+              <BlogCard
+                key={index}
+                src={blogItem.src}
+                alt={blogItem.alt}
+                title={blogItem.title}
+                author={blogItem.author}
+                date={blogItem.date}
+                des={blogItem.des}
+              />
+            </div>
           ))}
         </div>
       </WrapperContainer>

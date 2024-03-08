@@ -91,6 +91,69 @@ export const trending = [
   },
 ];
 
+export const bestSeller = [
+  {
+    src: "/images/City Backpack Black.jpg",
+    srcAlt: "/images/City Backpack Black Hover.jpg",
+    alt: "City Backpack Black",
+    status: "New",
+    size: "XL, L, S",
+    title: "City Backpack Black",
+    price: 1378000,
+    sale: "",
+  },
+  {
+    src: "/images/Women Black Pants.jpg",
+    srcAlt: "/images/Women Black Pants Hover.jpg",
+    alt: "Women Black Pants",
+    status: "New",
+    size: "XL, L, S",
+    title: "Women Black Pants",
+    price: 1506000,
+    sale: "",
+  },
+  {
+    src: "/images/Mercury Tee.jpg",
+    srcAlt: "/images/Mercury Tee Hover.jpg",
+    alt: "Mercury Tee",
+    status: "New",
+    size: "XL, L, S",
+    title: "Mercury Tee",
+    price: 1704000,
+    sale: 1128000,
+  },
+  {
+    src: "/images/Men pants.jpg",
+    srcAlt: "/images/Men pants Hover.jpg",
+    alt: "Men pants",
+    status: "New",
+    size: "XL, L, S",
+    title: "Men pants",
+    price: 1228000,
+    sale: "",
+  },
+  {
+    src: "/images/Dusk Pom Beanie.jpg",
+    srcAlt: "/images/Dusk Pom Beanie Hover.jpg",
+    alt: "Dusk Pom Beanie",
+    status: "New",
+    size: "XL, L, S",
+    title: "Dusk Pom Beanie",
+    price: 1128000,
+    sale: 752000,
+  },
+  {
+    src: "/images/Short Sleeved Hoodie.jpg",
+    srcAlt: "/images/Short Sleeved Hoodie Hover.jpg",
+    alt: "Short Sleeved Hoodie",
+    status: "New",
+    size: "XL, L, S",
+    title: "Short Sleeved Hoodie",
+    price: 627000,
+    sale: "",
+  },
+];
+
 export const blog = [
   {
     src: "/images/blog1.jpg",
@@ -115,5 +178,32 @@ export const blog = [
     author: "admin",
     date: "May 11, 2022",
     des: "Typography is the work of typesetters, compositors, typographers, graphic designers, art directors, manga artists, ...",
+  },
+];
+
+export const imageFollow = [
+  {
+    imgUrl: "/images/ins1.jpg",
+    alt: "ins1",
+  },
+  {
+    imgUrl: "/images/ins2.jpg",
+    alt: "ins2",
+  },
+  {
+    imgUrl: "/images/ins3.jpg",
+    alt: "ins3",
+  },
+  {
+    imgUrl: "/images/ins4.jpg",
+    alt: "ins4",
+  },
+  {
+    imgUrl: "/images/ins5.jpg",
+    alt: "ins5",
+  },
+  {
+    imgUrl: "/images/ins6.jpg",
+    alt: "ins6",
   },
 ];
